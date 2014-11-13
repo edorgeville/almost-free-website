@@ -2,7 +2,9 @@
 
 ## Comment avoir votre tout petit site en ligne pour ~15$/an  
 
-N.B. Remplacer tous les endroits où est inscrit ```dogeville.me``` par votre nom de domaine.
+Vous pouvez obtenir gratuitement un nom de domaine .me si vous êtes étudiant à l'adresse suivante : [http://nc.me](http://nc.me)
+
+Remplacer tous les endroits où est inscrit ```dogeville.me``` par votre nom de domaine.
 
 ### Création des comptes
 
