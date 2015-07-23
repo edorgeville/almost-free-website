@@ -1,45 +1,47 @@
 # Almost free website  
 
-## Comment avoir votre tout petit site en ligne pour ~15$/an  
+## How to get a small website online for ~$15 a year
 
-Vous pouvez obtenir gratuitement un nom de domaine .me si vous êtes étudiant à l'adresse suivante : [http://nc.me](http://nc.me)
+[__:fr: Version en français ici__](README.fr.md)
 
-Remplacer tous les endroits où est inscrit ```dogeville.me``` par votre nom de domaine.
+You can get a free .me domain if you are a student at the following URL: [http://nc.me](http://nc.me)
 
-### Création des comptes
+N.B.: __Everywhere you see ```dogeville.me```, use your own domain.__
 
-1. Créer un compte Github : [https://github.com/join](https://github.com/join)
-2. Créer un compte Cloudflare : [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
-3. Acheter ou transférer votre nom de domaine chez [iwantmyname](http://iwantmyname.com) (ou tout autre registrar)
+### Signing up on different services
 
-### Setup du site
+1. Create a Github account: [https://github.com/join](https://github.com/join)
+2. Create a Cloudflare account: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
+3. Buy or transfer your domain to [iwantmyname](http://iwantmyname.com) (or any other registrar)
 
-#### Sur Github :  
-4. Créer un repository nommé suivant la structure suivante : ```th3m4ri0.github.io``` (remplacer ```th3m4ri0``` par votre pseudo)
-5. Ajouter le contenu de votre site au repository :
+### Setting up
+
+#### On Github:  
+4. Create a repository named as follows: ```th3m4ri0.github.io``` (remplace ```th3m4ri0``` with your own username)
+5. Commit your files to your repository:
 ![5](images/5.png)
-6. Ajouter un fichier nommé CNAME avec le contenu suivant :
-```dogeville.me``` (ou votre nom de domaine)   
+6. Add a file named ``CNAME`` with the following content:
+```dogeville.me``` (or your own domain)   
 ![6](images/6.png)
 
-#### Sur Cloudflare :  
-7. Ajouter l'adresse de votre nom de domaine :
+#### On Cloudflare:  
+7. Add your domain URL:
 ![7](images/7.png)
-8. Laisser le scan s'effectuer :
+8. Let Cloudflare do its scanning stuff:
 ![8](images/8.png)  
 ![8b](images/8b.png)
-9. Puis entrez la ligne suivante dans les DNS records :
+9. Add the following line to the DNS records:
 ![9](images/9.png)
 ![9b](images/9b.png)
-(remplacez ```th3m4ri0``` par votre pseudo github)
-10. Sauvegardez les entrées.
-11. Copiez les deux lignes en haut à droite de la page :
+(replace ```th3m4ri0``` with your own github username)
+10. Save.
+11. Copy the two lines at the top right of the page:
 ![11](images/11.png)
 
-#### Sur iwantmyname (ou votre fournisseur de nom de domaine)
-12. Rendez-vous sur la page d'information de votre domaine (généralement dans [http://iwantmyname.com/dashboard/domains/](http://iwantmyname.com/dashboard/domains/)) et cliquez sur Update nameservers :
+#### On iwantmyname (or your own registrar):
+12. Go to your domain's information page (generally in [http://iwantmyname.com/dashboard/domains/](http://iwantmyname.com/dashboard/domains/)) and click on Update Nameservers:
 ![12](images/12.png)
-13. Puis collez les lignes copiées 2 étapes plus haut :
+13. Paste the 2 lines you copied two steps earlier:
 ![13](images/13.png)
-14. Sauvegardez
-15. Ouvrez votre navigateur à l'adresse de votre domaine ! Vous devriez voir votre site apparaitre.
+14. Save.
+15. Open your browser at your domain URL! You should be seeing your website.
